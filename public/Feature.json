@@ -1,0 +1,95 @@
+{
+    "featured": [
+        {
+          "name": "BILLIONAIRE BOYS",
+          "price": 20.0,
+          "image": "/placeholder.svg?height=80&width=80"
+        },
+        {
+          "name": "COOLKIDS",
+          "price": 3.0,
+          "image": "/placeholder.svg?height=80&width=80"
+        },
+        {
+          "name": "DIALOG",
+          "price": 15.0,
+          "image": "/placeholder.svg?height=80&width=80"
+        },
+        {
+          "name": "STREETWEAR",
+          "price": 25.0,
+          "image": "/placeholder.svg?height=80&width=80"
+        }
+      ]
+      ,
+    "newProducts": [
+        {
+          "name": "BILLIONAIRE BOYS",
+          "price": 20.0,
+          "image": "/placeholder.svg?height=80&width=80"
+        },
+        {
+          "name": "COOLKIDS",
+          "price": 3.0,
+          "image": "/placeholder.svg?height=80&width=80"
+        },
+        {
+          "name": "DIALOG",
+          "price": 15.0,
+          "image": "/placeholder.svg?height=80&width=80"
+        },
+        {
+          "name": "STREETWEAR",
+          "price": 25.0,
+          "image": "/placeholder.svg?height=80&width=80"
+        }
+      ]
+      ,
+    "onSale": [
+        {
+          "name": "BILLIONAIRE BOYS",
+          "price": 20.0,
+          "image": "/placeholder.svg?height=80&width=80"
+        },
+        {
+          "name": "COOLKIDS",
+          "price": 3.0,
+          "image": "/placeholder.svg?height=80&width=80"
+        },
+        {
+          "name": "DIALOG",
+          "price": 15.0,
+          "image": "/placeholder.svg?height=80&width=80"
+        },
+        {
+          "name": "STREETWEAR",
+          "price": 25.0,
+          "image": "/placeholder.svg?height=80&width=80"
+        }
+      ]
+      ,
+    "topRated": [
+        {
+          "name": "BILLIONAIRE BOYS",
+          "price": 20.0,
+          "image": "/placeholder.svg?height=80&width=80"
+        },
+        {
+          "name": "COOLKIDS",
+          "price": 3.0,
+          "image": "/placeholder.svg?height=80&width=80"
+        },
+        {
+          "name": "DIALOG",
+          "price": 15.0,
+          "image": "/placeholder.svg?height=80&width=80"
+        },
+        {
+          "name": "STREETWEAR",
+          "price": 25.0,
+          "image": "/placeholder.svg?height=80&width=80"
+        }
+      ]
+      
+  }
+  

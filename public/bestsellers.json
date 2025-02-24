@@ -1,0 +1,27 @@
+[
+    {
+      "title": "Elegant Leather Handbag",
+      "name": "Leather Handbag",
+      "image": "https://example.com/leather-handbag.jpg",
+      "price": 49.99
+    },
+    {
+      "title": "Durable Travel Backpack",
+      "name": "Backpack",
+      "image": "https://example.com/backpack.jpg",
+      "price": 39.99
+    },
+    {
+      "title": "Stylish Tote Bag",
+      "name": "Tote Bag",
+      "image": "https://example.com/tote-bag.jpg",
+      "price": 29.99
+    },
+    {
+      "title": "Classic Shoulder Bag",
+      "name": "Shoulder Bag",
+      "image": "https://example.com/shoulder-bag.jpg",
+      "price": 34.99
+    }
+  ]
+  

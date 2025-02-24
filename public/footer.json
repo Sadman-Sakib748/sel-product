@@ -1,0 +1,26 @@
+{
+    "footerData": [
+      {
+        "title": "ABOUT US",
+        "links": ["Our Story", "Careers", "Privacy Policy", "Terms of Service"]
+      },
+      {
+        "title": "FOOTER LINKS",
+        "links": ["Home", "Blog", "Contact", "FAQs"]
+      },
+      {
+        "title": "SERVICES",
+        "links": ["Web Development", "App Development", "Digital Marketing", "SEO Optimization"]
+      },
+      {
+        "title": "SOCIAL MEDIA",
+        "icons": ["Facebook", "Twitter", "Instagram", "Youtube", "Pinterest", "Linkedin"]
+      },
+      {
+        "title": "PAYMENT METHODS",
+        "methods": ["Visa", "MasterCard", "PayPal", "Stripe"]
+      }
+    ],
+    "copyright": "© 2025 Company Name. All rights reserved."
+  }
+  

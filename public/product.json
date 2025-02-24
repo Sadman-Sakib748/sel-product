@@ -1,0 +1,56 @@
+[
+  {
+      "id": 1,
+      "name": "CHEAP MONDAY",
+      "category": "MEN",
+      "price": 20.0,
+      "originalPrice": 35.0,
+      "image": "https://ibb.co.com/mCNjJNZ3",
+      "badge": "SALE"
+  },
+  {
+      "id": 2,
+      "name": "VANS CLASSIC",
+      "category": "MEN",
+      "price": 45.0,
+      "originalPrice": 60.0,
+      "image": "https://example.com/image-vans.png",
+      "badge": "NEW"
+  },
+  {
+      "id": 3,
+      "name": "LEVI'S JEANS",
+      "category": "WOMEN",
+      "price": 50.0,
+      "originalPrice": 80.0,
+      "image": "https://example.com/image-levis.png",
+      "badge": "SALE"
+  },
+  {
+      "id": 4,
+      "name": "ADIDAS SNEAKERS",
+      "category": "MEN",
+      "price": 70.0,
+      "originalPrice": 100.0,
+      "image": "https://example.com/image-adidas.png",
+      "badge": "NEW"
+  },
+  {
+      "id": 5,
+      "name": "NIKE T-SHIRT",
+      "category": "MEN",
+      "price": 25.0,
+      "originalPrice": 30.0,
+      "image": "https://example.com/image-nike.png",
+      "badge": "SALE"
+  },
+  {
+      "id": 6,
+      "name": "ZARA DRESS",
+      "category": "WOMEN",
+      "price": 40.0,
+      "originalPrice": 60.0,
+      "image": "https://example.com/image-zara.png",
+      "badge": "NEW"
+  }
+]

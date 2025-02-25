@@ -1,3 +1,5 @@
+
+
 const FreeSale = () => {
   return (
     <div className="w-full border-2">

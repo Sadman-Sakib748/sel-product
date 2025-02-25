@@ -1,10 +1,13 @@
 import bg from './../../../../assets/hallelluja.png';
 import cat from './../../../../assets/cat.png';
 import { motion } from "framer-motion";
+import HandBags from './HandBags/HandBags';
+import PopularBags from './PopularBags/PopularBags';
 
 const HomeV3 = () => {
     return (
-        <div className="relative h-screen w-full overflow-hidden">
+       <div>
+         <div className="relative h-screen w-full overflow-hidden">
             {/* Background Image */}
             <img
                 src={bg}
@@ -65,6 +68,11 @@ const HomeV3 = () => {
                 </motion.div>
             </div>
         </div>
+        <div>
+        <HandBags></HandBags>
+        <PopularBags></PopularBags>
+        </div>
+       </div>
     );
 };
 

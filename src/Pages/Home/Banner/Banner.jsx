@@ -4,7 +4,7 @@ import pamooxhi from "./../../../assets/pamooxhi.png";
 
 const Banner = () => {
     return (
-        <section className="relative flex min-h-screen w-full items-center justify-center overflow-hidden bg-white">
+        <section className="relative flex min-h-screen md:mt-16 w-full items-center justify-center overflow-hidden bg-white">
             <motion.div 
                 initial={{ opacity: 0, y: 50 }} 
                 animate={{ opacity: 1, y: 0 }} 

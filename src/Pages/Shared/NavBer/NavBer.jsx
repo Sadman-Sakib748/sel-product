@@ -1,13 +1,23 @@
-import React, { useState, useEffect } from "react";
+import React, { useState, useEffect, useContext } from "react";
 import { Link } from "react-router-dom";
 import { Search, ShoppingCart, ChevronDown, Menu, X } from "lucide-react";
 import logo from './../../../assets/logo.png';
+import { AuthContext } from "../../../Provider/AuthProviders";
 
 const NavBer = () => {
   const [scrollingDown, setScrollingDown] = useState(false);
   const [prevScrollY, setPrevScrollY] = useState(0);
   const [shrinkHeader, setShrinkHeader] = useState(false);
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
+  const { user, logOut } = useContext(AuthContext);
+  const [currentDateTime, setCurrentDateTime] = useState("");
+  const [dropdownOpen, setDropdownOpen] = useState(false);
+
+  const handleLogOut = () => {
+    logOut()
+      .then(() => { })
+      .catch((error) => console.error(error));
+  };
 
   useEffect(() => {
     const handleScroll = () => {
@@ -22,25 +32,46 @@ const NavBer = () => {
       setPrevScrollY(currentScrollY);
     };
 
+    // Function to update date and time
+    const updateDateTime = () => {
+      const now = new Date();
+      const formattedDateTime = now.toLocaleString("en-US", {
+        weekday: "long",
+        year: "numeric",
+        month: "long",
+        day: "numeric",
+        hour: "2-digit",
+        minute: "2-digit",
+        second: "2-digit",
+        hour12: true,
+      });
+      setCurrentDateTime(formattedDateTime);
+    };
+
+    updateDateTime(); // Set initial date and time
+    const interval = setInterval(updateDateTime, 1000); // Update every second
+
     window.addEventListener("scroll", handleScroll);
-    return () => window.removeEventListener("scroll", handleScroll);
+    return () => {
+      clearInterval(interval); // Clean up interval on component unmount
+      window.removeEventListener("scroll", handleScroll);
+    };
   }, [prevScrollY]);
 
   return (
     <header
-      className={`w-full fixed top-0 z-50 transition-all duration-300 ease-in-out ${scrollingDown ? '-translate-y-full' : 'translate-y-0'
-        }`}
+      className={`w-full fixed top-0 z-50 transition-all duration-300 ease-in-out ${scrollingDown ? "-translate-y-full" : "translate-y-0"}`}
     >
       {/* Top Bar (Hidden on Mobile) */}
-      <div className={`hidden md:block bg-zinc-900 text-zinc-400 text-sm transition-all duration-300 ${shrinkHeader ? 'h-0' : 'h-10'}`}>
+      <div className={`hidden md:block bg-zinc-900 text-zinc-400 text-sm transition-all duration-300 ${shrinkHeader ? "h-0" : "h-10"}`}>
         <div className="container mx-auto px-4">
           <div className="flex justify-between items-center h-full">
             <div className="flex items-center gap-2">
               <Link to="/login" className="hover:text-white transition-colors">LOGIN</Link>
               <span>or</span>
-              <Link to="/register" className="hover:text-white transition-colors">REGISTER</Link>
+              <Link to="/signup" className="hover:text-white transition-colors">REGISTER</Link>
               <span className="mx-2">|</span>
-              <span>February 24, 2025</span>
+              <span>{currentDateTime}</span> {/* Displaying real-time date and time */}
             </div>
             <div className="flex items-center gap-4">
               <Link to="/wishlist" className="hover:text-white transition-colors">WISHLIST</Link>
@@ -63,7 +94,7 @@ const NavBer = () => {
       </div>
 
       {/* Main Navigation */}
-      <div className={`border-b ${shrinkHeader ? 'h-16' : 'md:h-20'} transition-all duration-300 bg-white`}>
+      <div className={`border-b ${shrinkHeader ? "h-16" : "md:h-20"} transition-all duration-300 bg-white`}>
         <div className="container mx-auto px-4">
           <div className="flex items-center justify-between h-full">
             {/* Logo */}
@@ -73,7 +104,33 @@ const NavBer = () => {
 
             {/* Desktop Navigation */}
             <nav className="hidden md:flex items-center gap-8">
-              <Link to="/home" className="text-purple-600 font-medium hover:text-purple-700 transition-colors">HOME</Link>
+              <div className="relative">
+                <button
+                  className="text-purple-600 font-medium hover:text-purple-700 transition-colors flex items-center"
+                  onClick={() => setDropdownOpen(!dropdownOpen)}
+                >
+                  HOME
+                  <ChevronDown className="inline-block w-4 h-4 ml-1" />
+                </button>
+                {dropdownOpen && (
+                  <div className="absolute left-0 mt-2 bg-white shadow-lg rounded-md w-48">
+                    <Link to="/" className="block px-4 py-2 text-gray-700 hover:bg-purple-600 hover:text-white">
+                      Home V1
+                      <span className="text-sm text-gray-500 block">Default</span>
+                    </Link>
+                    <Link to="/home2" className="block px-4 py-2 text-gray-700 hover:bg-purple-600 hover:text-white">
+                      Home V2
+                      <span className="text-sm text-gray-500 block">Corporate  Edition</span>
+
+                    </Link>
+                    <span className="text-sm text-gray-500 block">Category Collection</span>
+                    <Link to="/home3" className="block px-4 py-2 text-gray-700 hover:bg-purple-600 hover:text-white">
+                      Home V3
+
+                    </Link>
+                  </div>
+                )}
+              </div>
               <Link to="/shop" className="text-gray-700 font-medium hover:text-purple-600 transition-colors">SHOP</Link>
               <Link to="/pages" className="text-gray-700 font-medium hover:text-purple-600 transition-colors">PAGES</Link>
               <Link to="/blog" className="text-gray-700 font-medium hover:text-purple-600 transition-colors">BLOG</Link>
@@ -92,6 +149,22 @@ const NavBer = () => {
                   0
                 </span>
               </button>
+
+              {/* Log Out Button (only visible when user is logged in) */}
+              {user ? (
+                <button
+                  className="p-2 hover:text-purple-600 transition-colors"
+                  onClick={handleLogOut}
+                  aria-label="Log Out"
+                >
+                  Log Out
+                </button>
+              ) : (
+                <div className="flex items-center gap-4">
+                  <Link to="/login" className="hover:text-purple-600 transition-colors">LOGIN</Link>
+                  <Link to="/signup" className="hover:text-purple-600 transition-colors">REGISTER</Link>
+                </div>
+              )}
 
               {/* Mobile Menu Button (Visible Only on Mobile) */}
               <button
@@ -119,7 +192,7 @@ const NavBer = () => {
           <X className="w-6 h-6" />
         </button>
         <nav className="flex flex-col bg-gray-950 items-center mt-20 space-y-6">
-          <Link to="/home" className="text-lg text-purple-600 font-medium hover:text-purple-700 transition-colors" onClick={() => setMobileMenuOpen(false)}>HOME</Link>
+          <Link to="/" className="text-lg text-purple-600 font-medium hover:text-purple-700 transition-colors" onClick={() => setMobileMenuOpen(false)}>HOME</Link>
           <Link to="/shop" className="text-lg text-gray-700 font-medium hover:text-purple-600 transition-colors" onClick={() => setMobileMenuOpen(false)}>SHOP</Link>
           <Link to="/pages" className="text-lg text-gray-700 font-medium hover:text-purple-600 transition-colors" onClick={() => setMobileMenuOpen(false)}>PAGES</Link>
           <Link to="/blog" className="text-lg text-gray-700 font-medium hover:text-purple-600 transition-colors" onClick={() => setMobileMenuOpen(false)}>BLOG</Link>

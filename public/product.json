@@ -1,14 +1,14 @@
 [
-  {
+    {
       "id": 1,
       "name": "CHEAP MONDAY",
       "category": "MEN",
       "price": 20.0,
       "originalPrice": 35.0,
-      "image": "https://ibb.co.com/mCNjJNZ3",
+      "image": "https://ibb.co.com/zHxFsHzs",
       "badge": "SALE"
-  },
-  {
+    },
+    {
       "id": 2,
       "name": "VANS CLASSIC",
       "category": "MEN",
@@ -16,8 +16,8 @@
       "originalPrice": 60.0,
       "image": "https://example.com/image-vans.png",
       "badge": "NEW"
-  },
-  {
+    },
+    {
       "id": 3,
       "name": "LEVI'S JEANS",
       "category": "WOMEN",
@@ -25,8 +25,8 @@
       "originalPrice": 80.0,
       "image": "https://example.com/image-levis.png",
       "badge": "SALE"
-  },
-  {
+    },
+    {
       "id": 4,
       "name": "ADIDAS SNEAKERS",
       "category": "MEN",
@@ -34,8 +34,8 @@
       "originalPrice": 100.0,
       "image": "https://example.com/image-adidas.png",
       "badge": "NEW"
-  },
-  {
+    },
+    {
       "id": 5,
       "name": "NIKE T-SHIRT",
       "category": "MEN",
@@ -43,8 +43,8 @@
       "originalPrice": 30.0,
       "image": "https://example.com/image-nike.png",
       "badge": "SALE"
-  },
-  {
+    },
+    {
       "id": 6,
       "name": "ZARA DRESS",
       "category": "WOMEN",
@@ -52,5 +52,132 @@
       "originalPrice": 60.0,
       "image": "https://example.com/image-zara.png",
       "badge": "NEW"
-  }
-]
+    },
+    {
+      "id": 7,
+      "name": "DISNEY HOODIE",
+      "category": "KIDS",
+      "price": 30.0,
+      "originalPrice": 45.0,
+      "image": "https://example.com/image-disney.png",
+      "badge": "NEW"
+    },
+    {
+      "id": 8,
+      "name": "CARTER'S JEANS",
+      "category": "KIDS",
+      "price": 20.0,
+      "originalPrice": 35.0,
+      "image": "https://example.com/image-carters.png",
+      "badge": "SALE"
+    },
+    {
+      "id": 9,
+      "name": "PUMA KIDS SHOES",
+      "category": "KIDS",
+      "price": 35.0,
+      "originalPrice": 50.0,
+      "image": "https://example.com/image-puma.png",
+      "badge": "NEW"
+    },
+    {
+      "id": 10,
+      "name": "GUCCI SUNGLASSES",
+      "category": "MEN",
+      "price": 150.0,
+      "originalPrice": 200.0,
+      "image": "https://example.com/image-gucci.png",
+      "badge": "NEW"
+    },
+    {
+      "id": 11,
+      "name": "TOMMY HILFIGER POLO",
+      "category": "MEN",
+      "price": 55.0,
+      "originalPrice": 75.0,
+      "image": "https://example.com/image-tommy.png",
+      "badge": "SALE"
+    },
+    {
+      "id": 12,
+      "name": "RAY-BAN AVIATORS",
+      "category": "MEN",
+      "price": 120.0,
+      "originalPrice": 160.0,
+      "image": "https://example.com/image-rayban.png",
+      "badge": "NEW"
+    },
+    {
+      "id": 13,
+      "name": "H&M SUMMER DRESS",
+      "category": "WOMEN",
+      "price": 35.0,
+      "originalPrice": 50.0,
+      "image": "https://example.com/image-hm.png",
+      "badge": "SALE"
+    },
+    {
+      "id": 14,
+      "name": "CHANEL HANDBAG",
+      "category": "WOMEN",
+      "price": 200.0,
+      "originalPrice": 250.0,
+      "image": "https://example.com/image-chanel.png",
+      "badge": "NEW"
+    },
+    {
+      "id": 15,
+      "name": "GUESS WATCH",
+      "category": "WOMEN",
+      "price": 100.0,
+      "originalPrice": 130.0,
+      "image": "https://example.com/image-guess.png",
+      "badge": "SALE"
+    },
+    {
+      "id": 16,
+      "name": "ADIDAS TRACKSUIT",
+      "category": "KIDS",
+      "price": 50.0,
+      "originalPrice": 65.0,
+      "image": "https://example.com/image-adidas-kids.png",
+      "badge": "NEW"
+    },
+    {
+      "id": 17,
+      "name": "LEGO T-SHIRT",
+      "category": "KIDS",
+      "price": 20.0,
+      "originalPrice": 30.0,
+      "image": "https://example.com/image-lego.png",
+      "badge": "SALE"
+    },
+    {
+      "id": 18,
+      "name": "FROZEN BACKPACK",
+      "category": "KIDS",
+      "price": 25.0,
+      "originalPrice": 40.0,
+      "image": "https://example.com/image-frozen.png",
+      "badge": "NEW"
+    },
+    {
+      "id": 19,
+      "name": "PUMA HOODIE",
+      "category": "MEN",
+      "price": 60.0,
+      "originalPrice": 80.0,
+      "image": "https://example.com/image-puma-hoodie.png",
+      "badge": "SALE"
+    },
+    {
+      "id": 20,
+      "name": "NIKE RUNNING SHOES",
+      "category": "MEN",
+      "price": 100.0,
+      "originalPrice": 130.0,
+      "image": "https://example.com/image-nike-shoes.png",
+      "badge": "NEW"
+    }
+  ]
+  

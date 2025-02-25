@@ -1,0 +1,56 @@
+/* Background Color Change Animation */
+@keyframes backgroundColorChange {
+    0% {
+      background-color: #f3f4f6; /* initial color */
+    }
+    50% {
+      background-color: #e0e7ff; /* intermediate color */
+    }
+    100% {
+      background-color: #f3f4f6; /* final color */
+    }
+  }
+  
+  .bg-animation {
+    animation: backgroundColorChange 5s ease-in-out infinite; /* Loop the background color change */
+  }
+  
+  /* Slide-In and Fade-In Effect for the Form */
+  @keyframes slideInUp {
+    0% {
+      transform: translateY(30px); /* Start below */
+      opacity: 0; /* Initially invisible */
+    }
+    100% {
+      transform: translateY(0); /* Move to original position */
+      opacity: 1; /* Become visible */
+    }
+  }
+  
+  .form-animation {
+    animation: slideInUp 1s ease-out forwards; /* Smooth sliding animation */
+  }
+  
+  /* Shake Animation for Error Inputs */
+  @keyframes shake {
+    0% {
+      transform: translateX(0);
+    }
+    25% {
+      transform: translateX(-5px);
+    }
+    50% {
+      transform: translateX(5px);
+    }
+    75% {
+      transform: translateX(-5px);
+    }
+    100% {
+      transform: translateX(0);
+    }
+  }
+  
+  .vibration {
+    animation: shake 0.5s ease-in-out 3; /* Shake 3 times for error feedback */
+  }
+  

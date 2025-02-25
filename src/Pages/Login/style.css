@@ -1,0 +1,41 @@
+/* Adding basic styles for form animations */
+@keyframes form-animation {
+    0% {
+        transform: translateY(-20px);
+        opacity: 0;
+    }
+    100% {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+.bg-animation {
+    animation: form-animation 1s ease-in-out forwards;
+}
+
+.form-animation {
+    animation: form-animation 1s ease-in-out forwards;
+}
+
+.vibration {
+    animation: shake 0.4s ease-in-out infinite;
+}
+
+@keyframes shake {
+    0% {
+        transform: translateX(0);
+    }
+    25% {
+        transform: translateX(-4px);
+    }
+    50% {
+        transform: translateX(4px);
+    }
+    75% {
+        transform: translateX(-4px);
+    }
+    100% {
+        transform: translateX(4px);
+    }
+}

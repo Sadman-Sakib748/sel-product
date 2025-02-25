@@ -11,7 +11,6 @@ const Trending = () => {
     const swiperRef = useRef(null);
 
     useEffect(() => {
-        // Replace the URL with the actual endpoint you're fetching data from
         fetch("/product.json")
             .then((res) => res.json())
             .then((data) => setProducts(data))
@@ -26,32 +25,28 @@ const Trending = () => {
             {/* Swiper Slider */}
             <div className="relative w-full">
                 <Swiper
-                    slidesPerView={1}  // Set to 1 for mobile screens
-                    spaceBetween={20}  // Adjust space between items
+                    slidesPerView={1}
+                    spaceBetween={20}
                     freeMode={true}
                     pagination={{ clickable: true }}
                     modules={[FreeMode, Pagination]}
                     className="mySwiper"
                     onSwiper={(swiper) => (swiperRef.current = swiper)}
                     breakpoints={{
-                        640: { slidesPerView: 1, spaceBetween: 10 }, // One item per view on small screens
-                        768: { slidesPerView: 2.5, spaceBetween: 15 }, // Two items per view for medium screens
-                        1024: { slidesPerView: 3, spaceBetween: 30 }, // Three items per view for large screens
+                        640: { slidesPerView: 1, spaceBetween: 10 },
+                        768: { slidesPerView: 2.5, spaceBetween: 15 },
+                        1024: { slidesPerView: 3, spaceBetween: 30 },
                     }}
                 >
                     {products.map((item) => (
                         <SwiperSlide key={item.id} className="p-4">
                             <div className="bg-white rounded-xl shadow-lg border hover:shadow-2xl transition-shadow duration-300 p-6 flex flex-col">
-                                <div className="relative h-56 mb-4">
-                                    {/* Image with hover effect */}
-                                    <img
-                                        src={item?.image}
-                                        alt={item.name}
-                                        className="w-full h-full object-cover transition-transform duration-500 transform hover:scale-105"
-                                    />
+                                <div className="relative w-full h-56 mb-4">
+                                    <img src={item.image} alt="" />
                                 </div>
                                 <div className="flex flex-col flex-grow">
-                                    <h3 className="text-xl font-semibold text-gray-800 text-center">{item.name}</h3>
+                                    <h3 className="text-xl font-semibold text-gray-800
+                                     text-center">{item.name}</h3>
                                     <p className="text-gray-500 text-center">{item.category}</p>
                                     <div className="flex items-center justify-between mt-2">
                                         <span className="text-lg font-bold text-gray-900">${item.price}</span>

@@ -1,5 +1,8 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import big from './../../../assets/big.jpg'
+import smal from './../../../assets/smal.jpg'
+import boy from './../../../assets/boy.jpg'
 
 const Category = () => {
     return (
@@ -7,7 +10,7 @@ const Category = () => {
             <div className="container mx-auto p-4">
                 <Link to="/men" className="relative block aspect-[3/4] max-w-md mx-auto overflow-hidden group">
                     <img  
-                        src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Screenshot%202025-02-24%20195217-qhpXQJe1tUG0oGFfhyCUJ0hIjbh3VH.png"
+                        src={boy}
                         alt="Men's Fashion Category"
                         className="object-cover transition-transform duration-500 group-hover:scale-105"
                         loading="lazy"
@@ -28,7 +31,7 @@ const Category = () => {
             <div className="container mx-auto p-4">
                 <Link to="/women" className="relative block aspect-[3/4] max-w-md mx-auto overflow-hidden group">
                     <img  
-                        src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Screenshot%202025-02-24%20195217-qhpXQJe1tUG0oGFfhyCUJ0hIjbh3VH.png"
+                        src={smal}
                         alt="Women's Fashion Category"
                         className="object-cover transition-transform duration-500 group-hover:scale-105"
                         loading="lazy"
@@ -49,7 +52,7 @@ const Category = () => {
             <div className="container mx-auto p-4">
                 <Link to="/kids" className="relative block aspect-[3/4] max-w-md mx-auto overflow-hidden group">
                     <img  
-                        src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Screenshot%202025-02-24%20195217-qhpXQJe1tUG0oGFfhyCUJ0hIjbh3VH.png"
+                        src={big}
                         alt="Kids' Fashion Category"
                         className="object-cover transition-transform duration-500 group-hover:scale-105"
                         loading="lazy"

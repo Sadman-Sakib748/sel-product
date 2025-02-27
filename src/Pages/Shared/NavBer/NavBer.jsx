@@ -131,10 +131,9 @@ const NavBer = () => {
                   </div>
                 )}
               </div>
-              <Link to="/shop" className="text-gray-700 font-medium hover:text-purple-600 transition-colors">SHOP</Link>
-              <Link to="/pages" className="text-gray-700 font-medium hover:text-purple-600 transition-colors">PAGES</Link>
-              <Link to="/blog" className="text-gray-700 font-medium hover:text-purple-600 transition-colors">BLOG</Link>
-              <Link to="/shortcodes" className="text-gray-700 font-medium hover:text-purple-600 transition-colors">SHORTCODES</Link>
+              <Link to="/shopAllData" className="text-gray-700 font-medium hover:text-purple-600 transition-colors">SHOP</Link>
+              <Link to="/welcomePage" className="text-gray-700 font-medium hover:text-purple-600 transition-colors">PAGES</Link>
+              <Link to="/Blogs" className="text-gray-700 font-medium hover:text-purple-600 transition-colors">BLOG</Link>
               <Link to="/buy-now" className="text-gray-700 font-medium hover:text-purple-600 transition-colors">BUY NOW</Link>
             </nav>
 

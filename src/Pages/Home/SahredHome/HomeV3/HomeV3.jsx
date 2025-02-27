@@ -3,6 +3,8 @@ import cat from './../../../../assets/cat.png';
 import { motion } from "framer-motion";
 import HandBags from './HandBags/HandBags';
 import PopularBags from './PopularBags/PopularBags';
+import Commend from './Commend/Commend';
+import OurBrand from './OurBrand/OurBrand';
 
 const HomeV3 = () => {
     return (
@@ -71,6 +73,8 @@ const HomeV3 = () => {
         <div>
         <HandBags></HandBags>
         <PopularBags></PopularBags>
+        <Commend></Commend>
+        <OurBrand></OurBrand>
         </div>
        </div>
     );

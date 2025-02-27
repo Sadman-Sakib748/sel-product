@@ -1,13 +1,14 @@
 import { motion } from 'framer-motion'
 import bg from "./../../../assets/bg-1-1.png";
 import pamooxhi from "./../../../assets/pamooxhi.png";
+import { Link } from 'react-router-dom';
 
 const Banner = () => {
     return (
         <section className="relative flex min-h-screen md:mt-16 w-full items-center justify-center overflow-hidden bg-white">
-            <motion.div 
-                initial={{ opacity: 0, y: 50 }} 
-                animate={{ opacity: 1, y: 0 }} 
+            <motion.div
+                initial={{ opacity: 0, y: 50 }}
+                animate={{ opacity: 1, y: 0 }}
                 transition={{ duration: 1 }}
                 className="container relative z-10 flex flex-col-reverse items-center gap-12 px-6 py-12 md:flex-row md:gap-20 lg:px-12"
             >
@@ -20,12 +21,14 @@ const Banner = () => {
                         whileHover={{ scale: 1.05 }}
                         whileTap={{ scale: 0.95 }}
                     >
-                        <button
+                       <Link to={'/shopAllData'}>
+                       <button
                             variant="default"
                             className="rounded-none bg-black px-8 py-6 text-base font-medium uppercase text-white hover:bg-black/90"
                         >
                             Shop Now
                         </button>
+                       </Link>
                     </motion.div>
                 </div>
                 <motion.div

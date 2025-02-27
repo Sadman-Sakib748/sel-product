@@ -1,183 +1,402 @@
 [
     {
-      "id": 1,
-      "name": "CHEAP MONDAY",
-      "category": "MEN",
-      "price": 20.0,
-      "originalPrice": 35.0,
-      "image": "https://ibb.co.com/zHxFsHzs",
-      "badge": "SALE"
+        "_id": "642c155b2c4774f05c36ee00",
+        "name": "Women's Handbag",
+        "description": "Elegant leather handbag with spacious compartments.",
+        "image": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBwgHBgkIBwgKCgkLDRYPDQwMDRsUFRAWIB0iIiAdHx8kKDQsJCYxJx8fLT0tMTU3Ojo6Iys/RD84QzQ5OjcBCgoKDQwNGg8PGjclHyU3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3N//AABEIAJQA1gMBIgACEQEDEQH/xAAcAAABBQEBAQAAAAAAAAAAAAAEAAIDBQYBBwj/xAA/EAACAQMDAQUFBgQFAwUBAAABAgMABBEFEiExBhNBUWEiMnGBkRQjQlKhsQcVwdEzYnKy4SRz8VNjgpLwF//EABgBAAMBAQAAAAAAAAAAAAAAAAABAgME/8QAIREBAQACAgICAwEAAAAAAAAAAAECEQMhEjFBURMiYTL/2gAMAwEAAhEDEQA/APPlkY546+dGWLkzg46DAFBIKNsR97UBcIOBUqimoOBUyihDgFSRko27w8q4KR6UCJWdMklht64x1qm1W+aLLJ9KPlOBVFqZ3Jz5ULUNxqlyzEbiBmhTPKTkqOeuKc6jvfnRMkS92CKCgUXEgPOOacszZUsoG3jjxqfTbCXULxLe3UM55OeAo8yfKvUOzHZ3SdIt21G7CTG3Bd7iUYAI/KD0/epuUh442sdo/YPXtXjW4MEdpE3Ie6fbn/4gE1df/wA51OJD3OsaVLJjiPvGX91xUfaHt/8AbZGhsxOkA4BTC7v61U2GsKZB3sfe5PuyMQfkw6GpuWTSYYfYXVLbVdAu1g1W1lgdvcY8rIP8rDg0JLqrkqcZx1r0CC9zpLtMp1XQnYJc29xzLaN4E+Xow/SsP2q7PfyK6iktpTcabdgtaz+JA6q3+YZ+fWiWVly8Xj2r3lSUlywwSCVI54oWd2Mm9RgDGBVjYWXfAECprrTWVD7NO5SMPOb0p072QnHic0/ZMntbR8KJtAIpgHHFXbJC8PsqOlFy0Llr0pLe/KkLIOcc5oveh2kgYznIquv0VZCV606CXMWCeaQ1vuJyRvJHiaeDQqk7qnB4q40ge+/w6rojtcNxwc80dfH2cUAKvEC2nRzuDqp8QwzXKCbrSotNqkFG2I+9oWMEkADJ8qsrC2YSDcwBPQVK1og4FSAYrgBHB8K7Qh0CuNwK74UxzxQcDzmqbUfcq3mqo1L/AAzQpm2/xvnRpRnVEQbnY4CjxNBn/FOT41eaSoUG4cAlBtQf5j1P0qcrqHjN3S30q2WwiS1iwZmx30g8T5fAVZfxCvTa6XZaPE2N6CecDxGfZH9flVbp04bW47Ic93tMpH5yRx8qb29V5+0l8WdQEZY0XyCqBj65+tZ491tn1jqMcOvzooqO5odhsk2nzopsdxWrBcdkddawui7r3qAbLmE8ieE9QR4kVqY9Ohnkv+ysr95bXH32mysfcbGUIPhkHB+debadJ3d9GxPssdrfA8VspLuRLbR7sECSBpLdm8dyEOg/+pYfKsspq9NsL5Yaqn0u4Fo7RTLskjJV1PVWBwQfmDVjLdxzggYxUP8AEG2WDtAbyEbYdSiS6AH5iMN+oJ+JNUlvcKgpZTccOfHJafqKKrbl60JHdOo27jiu3d1vOM1CKvGddnMdTsp8yc1HGCpxREa54on7A4AZsLnoD40+j8oHQVJmmujRttcYIpCr+FQNfHrQYom855HShhVwzD1pUj1pUBsrUgSjPjwKsrJCJxyRg9fSqt42ikMcqskgOCrAgijLEt3uMnFQtebh3jH8Jru9fEePNRDgdamFvMYDOInMS9X28ChBB15yB1HgKYzrnp+gpvhxTH6UKiORlOAR7OOTgcVSam25WPrWiWzhezmuJJGykbMEXHOATVboeq6fJHdLJpi3c4iLRs7Hg48B0I/WoucaTjrFuR3hP61pbIi2t4mcZEURmceuM4/YUAbGe+khme1KfebZmih2qy464AxnjB+Io/eZ7mSzdJIo7ldhkcYOchgB5e7j51OV3peGOto+xzsdaaaTOWdSzHzJNEduQy9p9TXkYnVgfAAqrVcWGirZQwrEcMJwX8zkf8Gg/wCKVgYL62v4m9m8iAcZ/GgC5+mPpRL+wy/yxLTA3ROcr0b6Uf36NAcjnyxnI8KqNpU+Oc+NFg4jrVgXeqGk5xx12+ta28mRdNmYqAsN7DJ7o43K4P6VjUXc2PPit4bRDOmn3Ubd1eujFuhyCdoHp1z8ay5L214sbZdO9sI++7L6FcnH3U0tsxwOhG4f7WrDO2WbGduePhXqdxo/837EXdmXCz28hu4fUqDx8wSK8u7s7c7TzRhemfLjZlsOT7VSqTTGA3AVOu3FXWOVKF9kyMegIq/tds5KEE56HyqkhQOppQTm2lwGIGfOoqNbWupQCKcOOcAZqt7xACAPh8Ksbi4WWHwJxVOW5NHHdrw2ZdSpljnAI49nkVCJIc+5gf6Rkf3plweaj8K6Is8yLj2T4njaOBSqA0qA9Tt0HaHTZBcolrqNouIZXdQt0ngvX3h/WidM7MlY+8upiH2g92vUfXrT4Ljs1Lb3NtZSW6MGLAqdrDzxnrQsnaTTW2/9URtX2SykcCue5VrjJ8tL9k0nTI45mnLl0CEMM+16CrW0uLYQBHj9hxjb/wAVhdX1EXtnaToQSpZSM9Txg1e2Ucuo6ZBeae6i5hGyVSevHGKzyzu3Vhx462tb3TdKumRGQwSkYV4+PqOlZfV9Mn02cLIN0TH2JAOG9PjVrZ6z3wmgvYtxjB+8B4U/+aMntX1PQLhowzzpjEX05HyNPHk70XJwyTceZLPL9saIzuULFdmeDR9hJPa3SxyAxnAYDGOD0PzqsuElZbtz93BCSZGC8kgngHzNM0dSqQu/vEZP9qaMa9N7LohtNxUEs7tkjzY0Vr8StYSFoo2KjIyoNB9lj/0EHquf1NW+rxmWxkC+VSuMR2HuoY9ZuE1ZA9nLESpfOFZSOR9a1uu9nND7VQQR29zLGYM47l92M+ec1nkSy0+Jft+TEuTGVG45PVcfKtf2ds44z3kMIjVoQHwPeOc/tT2LPhiZP4UIHOzVHKeGYwDSH8LIV97UJ/lt/tXqRTioZIxjpT8qn8eLzm3/AIeWNs6uX7x1ORvdv2GBTO10s+nQJK0VtM+QA7Rt7B8xzwRW9lTFZrtfYG60qTam5k9sDzxU22tNSTpbaJr2i/yy2uJreCGWeP71VXkHow+ua7bafpk6LLBa28kbe62N2R0qiFzYro7Xl5A8twVHNuucjAAb0Pn+labQSk2j2dxEzMtwgnyVx74B6efn6mltPTK/xM0azXsrc3MFnAk9u0bq6RgEAtgjj0NeN7mAr6I7ZAL2cvJGhinRI9zxypvVlHJyPhnFfPrhCzd2PYydvwrbD05+bH9j7aXaDmoJn3SZrhUimY55qpNXbn0IjlbHXinZqFDUtOTRwNOeaZ4U6XrTTwK0no0ZpU4K7crGxHoKVAWl6Ea+uJISyq0hdRnlckmomG4FN7+0M4J8ahu+7DjY27jn0ofeVztOMispDvtc6XqM5dYB7caZIz1IArRaRr8mjXhntJwYyBlH6MPI1ibGdrScTKu4YKkehqVb8jee6yxxtz4VGfHv06OLmkmrXqidqrCdUFnaTQ962bhPYOfPBP8AWiG7Rst+oF2tsZF49kPsUcYxwMn+9eZw6ygiYfZcS49noVzVmkcs5Es0i99gZ44+ArLxsvbe8kymol1oXKwPGVQhpmZpEfiToBx5gZp0Cr3pA4GOKqby4l71sEDbwfWjtPYlQzHJP71dZYzVekdncLawAHju1x8K0TKGiO7pWa0Hi1t8f+in7Cie0F80As7WNtjXUwQvnoPGpaa6ZPtYkIvJo1dtqDLKoyR8K9O0S5tZrYRWkyuIvZKg8qcZ5+tZO0g0p52urWaJzC2HYcgMf61Zpf21zq1vcWPs3YdIpjjAkQ54Pw6j/miCxrBzUbjinr0rrDIqiATCoBGruAwGKKmWhydpzUVfwzV1ZdzY3cEaDvbWQpGo43o3ur9Dj5VP2Z1lbGxFprMc1ssbhIbh0JjbjpkdBnx6Uy+uwvay1jcAxzptbPiwB2/v+lXGparaWlhIJ7N5EKkFWwA3HShnrtYahbrd2E0BYMssRUHqDkdfUV4SezbIXiO7Kezn4HFei9me0KWk0OnK2+1Z2SJduO5zlgM5yQNpGPhWY7YXraT2lvLfb7JYSr8GGf3zVY5aTnjtnZezjxAkszemKq5rPu2CPnJOAavJe0Mbx4I5qjmuBLIXU85rbG7YXEOyBG2jPHXNNJrrHJphPFUz0hf3zXUUM6qehPNNbrXDVz0BrbwSicAcilQv2kkAPGrY6E0qAirlOdSrlT4U5QAufOpAywZO5kRxnHNRXPduAF4aoYX2OfIjBp8eWYt5Uixx7H6NbrLcgufZQbiD+I+Aq9kdURywKlR0PBqoskC2+T+Jj9KuNNsTcRq8sjmMHKoTkVhl7duM1FO0bMCTxu5o6x9lADRN5AFbAFQRrgcUrVR6NoZxbQD/ANqP/YKA7dxSmKzuYmYd25GV/CTyD+mPnRWkPiNB5Rx/7FqyvbeK+tHgmGVcYPp60lfDzqG7Mccsh2RSTEM23gSnzHr6VcdkLzOu20bMcSuACD4qd37Aj51HDpFzbX5glhNzbufwbcn4g4GfXNVMyT6Lq5Qh0lt5A6g8HHvDpnwxQI91Q1JnigtPu472yguojlJUDj50UDTSjlFDOtFvzUDClVSsf2z0yeW3W8s1YzRYbCdeDkY+lV+pa7Dq2jJJPMsM8KbnjcECX/T6nyreOoYYwKyPafR7dYJpoFaJmJLBD7J8zjpSL5ZzshKv87tCRnc3AIx/+4zRP8VbNTqNpdY5eEoTjrg5H7mqfs43cata8n2JwMn1P/Naz+JqBtLt5ce5Pj5EVKtfbyWaIA8VEF2mjJ8ZoVutbcd25uSaMY1G3SntTG6Vsw0gPWuGlnmkasjKVKlQBxg+0Nx7w5PmRTtsIKr3fsnjJPINT/ZLq0myI2kTzX+1RTPGr7m3YyTsKHINZnQwgzM6/lqcW7qOOhOOKZCk7SmRVbk9SvhRsUEiqNzcA+VCsU8CMtsPHHH1rWaVbsLJBge7WO70JlUxgdBjxrW9m9QWW32ORux0xWWUdGN2jvbdvy1XyR7FOeDitDdbd2cjjpVFfOqoxJ6KahbXadIBkeSp/tFW6yZWsxZzbXdfIgfoKuIJ8gc0NIkulYSLJH1Bqs7Y20V3ZW2qJFl48Qzt4gZ4J+f71aO+aHgmgMs1pck/ZrkbWUjoSMZpFoT/AA31QPbTaXI5L253xA/kPJHyNbcNXiMdzddm+0okPv28gyPCSP8AsRXr1nfRXlvHcW77o5FDKR0xTKxYseKiY1H3vrUbS0bT2kY1S66N1nIPQ1YvL61TazLmB8HwpKkYDTRjVh/31x+lbH+Iq7uzcjfkljP64/rWa0C3M2sREDIM2fpW67SWkd7oN5FMpZO73EDr7JB4+lJXw8QY72AHietdZYowcxlucEk1Z3ehSqe+05xMoOe7PD/81XuhDHvAy9NyEc8VthqOXkl2FmiAm2oeCMioXicLnHGMmp5u8aXeEI8hUEryYOQRnrxWm4ysofuXBbIA2+FIwvuxtPTzpGVt3OM8g5A5pd824crx1461ohwwsOox86VcMzEY2r59KVAX6XpI96mTXi49oD6VSrMVPNExXKHhulRo00upN+HgUJJeSvn2qIb7O3PFRsIB0oNBbysr4OSDVlZ3jW8mFYgHp8aC7yNegFcDqWqcpteOWmh/mE8nDNzTZiWt5STztNV0E3rR5cNbyD/Kaxs06JemohB76X/Was4CRigIgDNN/wBxv3qzgTpUtYIGSKAvoyeRww8asgvFD3ChqDVesWR1vTBPAudQtVxgdZFHh8fKoOw3aIWUo029fbBK/wB0zcCNj4HyB/eiY5nsrkSRkjnn1oXtDoqX8banpgHee9NCv4vUDz9PH9wtvRDMRUZn9axPZPtR3yLYanIFmHswzOcB/wDKx8D61ppJwhYNwR4HipPqi5J+OtU2sT/clQeT0p019Gv4h8OtJYFjUXV+dgb/AA4j7zfKnAXZnT/s579xhiPZNaY4kiaNujKVPwNUkF6nHQDwGelWEF0j+I+tBMDFoGsLKyLblEViA7yKMjPXg5obtVbfZHso5WV7gxM0sgGM8+yPXHPNbHWtWtNPu2hubpI2KhgmCTtPoBWC7SajHqd8ksIbYkYQFhjPJ8PKnoVWkjFRSBSOgrvPhTWBpxFCyRJ+QUO8CH8IFFsCahcYrXGs7jApt18Diu09uTSqto8YDCnzrqxZo0OnOV8vDrT1kTIzjGOcjFO1ExgIwjzppQDoamZiST5muBc0j8YHIxSUEkBepojusmpbeMLMu7oQRT8oLx0o42jIDSAMfCioLjO+NvexyKa1mS2FDKM8EeVDSIftDNyyHg48qm+NE88XoVm++SRsg5dj+tXETqiZJAryqG8uoSGUsGzkkGi/51qbDa07FT5qKzuH9bTk/j0mS/RPxCgptTi/OKwBvryRiTIeR+X1+NNH2iQqHmbbjDZFLxn2r8l+mvudTgOcuKCi11bV8xSjHlmss1tIzEl258M4pC0Y9Wf6mjWP2PLP6XWrX9lfsZu7Ecx6sg4b4ipbLtZeW0S28rxXUS8Klwu76HIb9aovsJ6sBUlvaKsyluBmn+pa5Gqj7V9yQ0NtZ28rdGCs5B9Mk4oCftHdPMzSl5ZfFiCaGSyjLYQHGc7vD1/ap/s6d/xyBx8qm6VMc77pjdo77PsRkH1p0PaHXM/dBB+tHRWkZHuD048KsYYYYldtuBjyo2fj/VVPFfatOtzqUo7zaFAxjAH/AJoW+gSCVUj6beasZ9UUOQqgeXHSq2W5M0gZvPkYoFs0hC01xTnbLHHTwpjtxRpIdxzUDqc+dTMajDASKT0BrWIpv2U4yzhc+BpUQ4Vm3BGYHxXzrlUjatpGlSpk5UqAUqVTV4n4AruMnB6UqVZ1pPaUHAx/WudeMUqVJoniiRuoohbeP8tKlUiRIsEefdp6xJ5UqVKrhGNfKnIik9K5SpRVRTdTTI1B60qVUQpEG3qanh4NKlQlYRc4rt25WB8HwrlKmlQuc9ajHWlSpszscVHJSpVUINIaHcmlSrSIqMsQSMn61ylSqkP/2Q==",
+        "category": "women",
+        "price": 45.99
     },
     {
-      "id": 2,
-      "name": "VANS CLASSIC",
-      "category": "MEN",
-      "price": 45.0,
-      "originalPrice": 60.0,
-      "image": "https://example.com/image-vans.png",
-      "badge": "NEW"
+        "_id": "642c155b2c4774f05c36ee01",
+        "name": "Men's Watch",
+        "description": "Stylish stainless steel wristwatch with waterproof feature.",
+        "image": "data:image/jpeg;base64,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",
+        "category": "men",
+        "price": 120.0
     },
     {
-      "id": 3,
-      "name": "LEVI'S JEANS",
-      "category": "WOMEN",
-      "price": 50.0,
-      "originalPrice": 80.0,
-      "image": "https://example.com/image-levis.png",
-      "badge": "SALE"
+        "_id": "642c155b2c4774f05c36ee02",
+        "name": "Kids' Toy Car",
+        "description": "Battery-operated toy car with remote control.",
+        "image": "data:image/jpeg;base64,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",
+        "category": "kids",
+        "price": 29.99
     },
     {
-      "id": 4,
-      "name": "ADIDAS SNEAKERS",
-      "category": "MEN",
-      "price": 70.0,
-      "originalPrice": 100.0,
-      "image": "https://example.com/image-adidas.png",
-      "badge": "NEW"
+        "_id": "642c155b2c4774f05c36ee03",
+        "name": "Women's Handbag",
+        "description": "Elegant leather handbag with spacious compartments.",
+        "image": "https://example.com/images/handbag.jpg",
+        "category": "women",
+        "price": 45.99
     },
     {
-      "id": 5,
-      "name": "NIKE T-SHIRT",
-      "category": "MEN",
-      "price": 25.0,
-      "originalPrice": 30.0,
-      "image": "https://example.com/image-nike.png",
-      "badge": "SALE"
+        "_id": "642c155b2c4774f05c36ee04",
+        "name": "Men's Watch",
+        "description": "Stylish stainless steel wristwatch with waterproof feature.",
+        "image": "https://example.com/images/watch.jpg",
+        "category": "men",
+        "price": 120.0
     },
     {
-      "id": 6,
-      "name": "ZARA DRESS",
-      "category": "WOMEN",
-      "price": 40.0,
-      "originalPrice": 60.0,
-      "image": "https://example.com/image-zara.png",
-      "badge": "NEW"
+        "_id": "642c155b2c4774f05c36ee05",
+        "name": "Kids' Toy Car",
+        "description": "Battery-operated toy car with remote control.",
+        "image": "https://example.com/images/toycar.jpg",
+        "category": "kids",
+        "price": 29.99
     },
     {
-      "id": 7,
-      "name": "DISNEY HOODIE",
-      "category": "KIDS",
-      "price": 30.0,
-      "originalPrice": 45.0,
-      "image": "https://example.com/image-disney.png",
-      "badge": "NEW"
+        "_id": "642c155b2c4774f05c36ee06",
+        "name": "Women's Handbag",
+        "description": "Elegant leather handbag with spacious compartments.",
+        "image": "https://example.com/images/handbag.jpg",
+        "category": "women",
+        "price": 45.99
     },
     {
-      "id": 8,
-      "name": "CARTER'S JEANS",
-      "category": "KIDS",
-      "price": 20.0,
-      "originalPrice": 35.0,
-      "image": "https://example.com/image-carters.png",
-      "badge": "SALE"
+        "_id": "642c155b2c4774f05c36ee07",
+        "name": "Men's Watch",
+        "description": "Stylish stainless steel wristwatch with waterproof feature.",
+        "image": "https://example.com/images/watch.jpg",
+        "category": "men",
+        "price": 120.0
     },
     {
-      "id": 9,
-      "name": "PUMA KIDS SHOES",
-      "category": "KIDS",
-      "price": 35.0,
-      "originalPrice": 50.0,
-      "image": "https://example.com/image-puma.png",
-      "badge": "NEW"
+        "_id": "642c155b2c4774f05c36ee08",
+        "name": "Kids' Toy Car",
+        "description": "Battery-operated toy car with remote control.",
+        "image": "https://example.com/images/toycar.jpg",
+        "category": "kids",
+        "price": 29.99
     },
     {
-      "id": 10,
-      "name": "GUCCI SUNGLASSES",
-      "category": "MEN",
-      "price": 150.0,
-      "originalPrice": 200.0,
-      "image": "https://example.com/image-gucci.png",
-      "badge": "NEW"
+        "_id": "642c155b2c4774f05c36ee09",
+        "name": "Women's Handbag",
+        "description": "Elegant leather handbag with spacious compartments.",
+        "image": "https://example.com/images/handbag.jpg",
+        "category": "women",
+        "price": 45.99
     },
     {
-      "id": 11,
-      "name": "TOMMY HILFIGER POLO",
-      "category": "MEN",
-      "price": 55.0,
-      "originalPrice": 75.0,
-      "image": "https://example.com/image-tommy.png",
-      "badge": "SALE"
+        "_id": "642c155b2c4774f05c36ee10",
+        "name": "Men's Watch",
+        "description": "Stylish stainless steel wristwatch with waterproof feature.",
+        "image": "https://example.com/images/watch.jpg",
+        "category": "men",
+        "price": 120.0
     },
     {
-      "id": 12,
-      "name": "RAY-BAN AVIATORS",
-      "category": "MEN",
-      "price": 120.0,
-      "originalPrice": 160.0,
-      "image": "https://example.com/image-rayban.png",
-      "badge": "NEW"
+        "_id": "642c155b2c4774f05c36ee11",
+        "name": "Kids' Toy Car",
+        "description": "Battery-operated toy car with remote control.",
+        "image": "https://example.com/images/toycar.jpg",
+        "category": "kids",
+        "price": 29.99
     },
     {
-      "id": 13,
-      "name": "H&M SUMMER DRESS",
-      "category": "WOMEN",
-      "price": 35.0,
-      "originalPrice": 50.0,
-      "image": "https://example.com/image-hm.png",
-      "badge": "SALE"
+        "_id": "642c155b2c4774f05c36ee12",
+        "name": "Women's Handbag",
+        "description": "Elegant leather handbag with spacious compartments.",
+        "image": "https://example.com/images/handbag.jpg",
+        "category": "women",
+        "price": 45.99
     },
     {
-      "id": 14,
-      "name": "CHANEL HANDBAG",
-      "category": "WOMEN",
-      "price": 200.0,
-      "originalPrice": 250.0,
-      "image": "https://example.com/image-chanel.png",
-      "badge": "NEW"
+        "_id": "642c155b2c4774f05c36ee13",
+        "name": "Men's Watch",
+        "description": "Stylish stainless steel wristwatch with waterproof feature.",
+        "image": "https://example.com/images/watch.jpg",
+        "category": "men",
+        "price": 120.0
     },
     {
-      "id": 15,
-      "name": "GUESS WATCH",
-      "category": "WOMEN",
-      "price": 100.0,
-      "originalPrice": 130.0,
-      "image": "https://example.com/image-guess.png",
-      "badge": "SALE"
+        "_id": "642c155b2c4774f05c36ee14",
+        "name": "Kids' Toy Car",
+        "description": "Battery-operated toy car with remote control.",
+        "image": "https://example.com/images/toycar.jpg",
+        "category": "kids",
+        "price": 29.99
     },
     {
-      "id": 16,
-      "name": "ADIDAS TRACKSUIT",
-      "category": "KIDS",
-      "price": 50.0,
-      "originalPrice": 65.0,
-      "image": "https://example.com/image-adidas-kids.png",
-      "badge": "NEW"
+        "_id": "642c155b2c4774f05c36ee15",
+        "name": "Women's Handbag",
+        "description": "Elegant leather handbag with spacious compartments.",
+        "image": "https://example.com/images/handbag.jpg",
+        "category": "women",
+        "price": 45.99
     },
     {
-      "id": 17,
-      "name": "LEGO T-SHIRT",
-      "category": "KIDS",
-      "price": 20.0,
-      "originalPrice": 30.0,
-      "image": "https://example.com/image-lego.png",
-      "badge": "SALE"
+        "_id": "642c155b2c4774f05c36ee16",
+        "name": "Men's Watch",
+        "description": "Stylish stainless steel wristwatch with waterproof feature.",
+        "image": "https://example.com/images/watch.jpg",
+        "category": "men",
+        "price": 120.0
     },
     {
-      "id": 18,
-      "name": "FROZEN BACKPACK",
-      "category": "KIDS",
-      "price": 25.0,
-      "originalPrice": 40.0,
-      "image": "https://example.com/image-frozen.png",
-      "badge": "NEW"
+        "_id": "642c155b2c4774f05c36ee17",
+        "name": "Kids' Toy Car",
+        "description": "Battery-operated toy car with remote control.",
+        "image": "https://example.com/images/toycar.jpg",
+        "category": "kids",
+        "price": 29.99
     },
     {
-      "id": 19,
-      "name": "PUMA HOODIE",
-      "category": "MEN",
-      "price": 60.0,
-      "originalPrice": 80.0,
-      "image": "https://example.com/image-puma-hoodie.png",
-      "badge": "SALE"
+        "_id": "642c155b2c4774f05c36ee18",
+        "name": "Women's Handbag",
+        "description": "Elegant leather handbag with spacious compartments.",
+        "image": "https://example.com/images/handbag.jpg",
+        "category": "women",
+        "price": 45.99
     },
     {
-      "id": 20,
-      "name": "NIKE RUNNING SHOES",
-      "category": "MEN",
-      "price": 100.0,
-      "originalPrice": 130.0,
-      "image": "https://example.com/image-nike-shoes.png",
-      "badge": "NEW"
+        "_id": "642c155b2c4774f05c36ee19",
+        "name": "Men's Watch",
+        "description": "Stylish stainless steel wristwatch with waterproof feature.",
+        "image": "https://example.com/images/watch.jpg",
+        "category": "men",
+        "price": 120.0
+    },
+    {
+        "_id": "642c155b2c4774f05c36ee20",
+        "name": "Kids' Toy Car",
+        "description": "Battery-operated toy car with remote control.",
+        "image": "https://example.com/images/toycar.jpg",
+        "category": "kids",
+        "price": 29.99
+    },
+    {
+        "_id": "642c155b2c4774f05c36ee21",
+        "name": "Women's Handbag",
+        "description": "Elegant leather handbag with spacious compartments.",
+        "image": "https://example.com/images/handbag.jpg",
+        "category": "women",
+        "price": 45.99
+    },
+    {
+        "_id": "642c155b2c4774f05c36ee22",
+        "name": "Men's Watch",
+        "description": "Stylish stainless steel wristwatch with waterproof feature.",
+        "image": "https://example.com/images/watch.jpg",
+        "category": "men",
+        "price": 120.0
+    },
+    {
+        "_id": "642c155b2c4774f05c36ee23",
+        "name": "Kids' Toy Car",
+        "description": "Battery-operated toy car with remote control.",
+        "image": "https://example.com/images/toycar.jpg",
+        "category": "kids",
+        "price": 29.99
+    },
+    {
+        "_id": "642c155b2c4774f05c36ee24",
+        "name": "Women's Handbag",
+        "description": "Elegant leather handbag with spacious compartments.",
+        "image": "https://example.com/images/handbag.jpg",
+        "category": "women",
+        "price": 45.99
+    },
+    {
+        "_id": "642c155b2c4774f05c36ee25",
+        "name": "Men's Watch",
+        "description": "Stylish stainless steel wristwatch with waterproof feature.",
+        "image": "https://example.com/images/watch.jpg",
+        "category": "men",
+        "price": 120.0
+    },
+    {
+        "_id": "642c155b2c4774f05c36ee26",
+        "name": "Kids' Toy Car",
+        "description": "Battery-operated toy car with remote control.",
+        "image": "https://example.com/images/toycar.jpg",
+        "category": "kids",
+        "price": 29.99
+    },
+    {
+        "_id": "642c155b2c4774f05c36ee27",
+        "name": "Women's Handbag",
+        "description": "Elegant leather handbag with spacious compartments.",
+        "image": "https://example.com/images/handbag.jpg",
+        "category": "women",
+        "price": 45.99
+    },
+    {
+        "_id": "642c155b2c4774f05c36ee28",
+        "name": "Men's Watch",
+        "description": "Stylish stainless steel wristwatch with waterproof feature.",
+        "image": "https://example.com/images/watch.jpg",
+        "category": "men",
+        "price": 120.0
+    },
+    {
+        "_id": "642c155b2c4774f05c36ee29",
+        "name": "Kids' Toy Car",
+        "description": "Battery-operated toy car with remote control.",
+        "image": "https://example.com/images/toycar.jpg",
+        "category": "kids",
+        "price": 29.99
+    },
+    {
+        "_id": "642c155b2c4774f05c36ee30",
+        "name": "Women's Handbag",
+        "description": "Elegant leather handbag with spacious compartments.",
+        "image": "https://example.com/images/handbag.jpg",
+        "category": "women",
+        "price": 45.99
+    },
+    {
+        "_id": "642c155b2c4774f05c36ee31",
+        "name": "Men's Watch",
+        "description": "Stylish stainless steel wristwatch with waterproof feature.",
+        "image": "https://example.com/images/watch.jpg",
+        "category": "men",
+        "price": 120.0
+    },
+    {
+        "_id": "642c155b2c4774f05c36ee32",
+        "name": "Kids' Toy Car",
+        "description": "Battery-operated toy car with remote control.",
+        "image": "https://example.com/images/toycar.jpg",
+        "category": "kids",
+        "price": 29.99
+    },
+    {
+        "_id": "642c155b2c4774f05c36ee33",
+        "name": "Women's Handbag",
+        "description": "Elegant leather handbag with spacious compartments.",
+        "image": "https://example.com/images/handbag.jpg",
+        "category": "women",
+        "price": 45.99
+    },
+    {
+        "_id": "642c155b2c4774f05c36ee34",
+        "name": "Men's Watch",
+        "description": "Stylish stainless steel wristwatch with waterproof feature.",
+        "image": "https://example.com/images/watch.jpg",
+        "category": "men",
+        "price": 120.0
+    },
+    {
+        "_id": "642c155b2c4774f05c36ee35",
+        "name": "Kids' Toy Car",
+        "description": "Battery-operated toy car with remote control.",
+        "image": "https://example.com/images/toycar.jpg",
+        "category": "kids",
+        "price": 29.99
+    },
+    {
+        "_id": "642c155b2c4774f05c36ee36",
+        "name": "Women's Handbag",
+        "description": "Elegant leather handbag with spacious compartments.",
+        "image": "https://example.com/images/handbag.jpg",
+        "category": "women",
+        "price": 45.99
+    },
+    {
+        "_id": "642c155b2c4774f05c36ee37",
+        "name": "Men's Watch",
+        "description": "Stylish stainless steel wristwatch with waterproof feature.",
+        "image": "https://example.com/images/watch.jpg",
+        "category": "men",
+        "price": 120.0
+    },
+    {
+        "_id": "642c155b2c4774f05c36ee38",
+        "name": "Kids' Toy Car",
+        "description": "Battery-operated toy car with remote control.",
+        "image": "https://example.com/images/toycar.jpg",
+        "category": "kids",
+        "price": 29.99
+    },
+    {
+        "_id": "642c155b2c4774f05c36ee39",
+        "name": "Women's Handbag",
+        "description": "Elegant leather handbag with spacious compartments.",
+        "image": "https://example.com/images/handbag.jpg",
+        "category": "women",
+        "price": 45.99
+    },
+    {
+        "_id": "642c155b2c4774f05c36ee40",
+        "name": "Men's Watch",
+        "description": "Stylish stainless steel wristwatch with waterproof feature.",
+        "image": "https://example.com/images/watch.jpg",
+        "category": "men",
+        "price": 120.0
+    },
+    {
+        "_id": "642c155b2c4774f05c36ee41",
+        "name": "Kids' Toy Car",
+        "description": "Battery-operated toy car with remote control.",
+        "image": "https://example.com/images/toycar.jpg",
+        "category": "kids",
+        "price": 29.99
+    },
+    {
+        "_id": "642c155b2c4774f05c36ee42",
+        "name": "Women's Handbag",
+        "description": "Elegant leather handbag with spacious compartments.",
+        "image": "https://example.com/images/handbag.jpg",
+        "category": "women",
+        "price": 45.99
+    },
+    {
+        "_id": "642c155b2c4774f05c36ee43",
+        "name": "Men's Watch",
+        "description": "Stylish stainless steel wristwatch with waterproof feature.",
+        "image": "https://example.com/images/watch.jpg",
+        "category": "men",
+        "price": 120.0
+    },
+    {
+        "_id": "642c155b2c4774f05c36ee44",
+        "name": "Kids' Toy Car",
+        "description": "Battery-operated toy car with remote control.",
+        "image": "https://example.com/images/toycar.jpg",
+        "category": "kids",
+        "price": 29.99
+    },
+    {
+        "_id": "642c155b2c4774f05c36ee45",
+        "name": "Women's Handbag",
+        "description": "Elegant leather handbag with spacious compartments.",
+        "image": "https://example.com/images/handbag.jpg",
+        "category": "women",
+        "price": 45.99
+    },
+    {
+        "_id": "642c155b2c4774f05c36ee46",
+        "name": "Men's Watch",
+        "description": "Stylish stainless steel wristwatch with waterproof feature.",
+        "image": "https://example.com/images/watch.jpg",
+        "category": "men",
+        "price": 120.0
+    },
+    {
+        "_id": "642c155b2c4774f05c36ee47",
+        "name": "Kids' Toy Car",
+        "description": "Battery-operated toy car with remote control.",
+        "image": "https://example.com/images/toycar.jpg",
+        "category": "kids",
+        "price": 29.99
+    },
+    {
+        "_id": "642c155b2c4774f05c36ee48",
+        "name": "Women's Handbag",
+        "description": "Elegant leather handbag with spacious compartments.",
+        "image": "https://example.com/images/handbag.jpg",
+        "category": "women",
+        "price": 45.99
+    },
+    {
+        "_id": "642c155b2c4774f05c36ee49",
+        "name": "Men's Watch",
+        "description": "Stylish stainless steel wristwatch with waterproof feature.",
+        "image": "https://example.com/images/watch.jpg",
+        "category": "men",
+        "price": 120.0
     }
-  ]
-  
+]

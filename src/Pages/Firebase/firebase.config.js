@@ -1,21 +1,17 @@
-// Import the functions you need from the SDKs you need
+// src/Pages/Firebase/firebase.config.js
 import { initializeApp } from "firebase/app";
-import { getAnalytics } from "firebase/analytics";
-// TODO: Add SDKs for Firebase products that you want to use
-// https://firebase.google.com/docs/web/setup#available-libraries
 
-// Your web app's Firebase configuration
-// For Firebase JS SDK v7.20.0 and later, measurementId is optional
 const firebaseConfig = {
-  apiKey: "AIzaSyCUBJHqWuvkY5xszKLKJerxbPAMUaTi_LI",
-  authDomain: "online-shop-e1f95.firebaseapp.com",
-  projectId: "online-shop-e1f95",
-  storageBucket: "online-shop-e1f95.firebasestorage.app",
-  messagingSenderId: "494175356922",
-  appId: "1:494175356922:web:606642cb51998dc024c643",
-  measurementId: "G-VFQMX4CW1B"
+  apiKey: import.meta.env.VITE_FIREBASE_API_KEY,
+  authDomain: import.meta.env.VITE_FIREBASE_AUTH_DOMAIN,
+  projectId: import.meta.env.VITE_FIREBASE_PROJECT_ID,
+  storageBucket: import.meta.env.VITE_FIREBASE_STORAGE_BUCKET,
+  messagingSenderId: import.meta.env.VITE_FIREBASE_MESSAGING_SENDER_ID,
+  appId: import.meta.env.VITE_FIREBASE_APP_ID,
 };
 
-// Initialize Firebase
-export const app = initializeApp(firebaseConfig);
-export const analytics = getAnalytics(app);
+console.log("Firebase Config:", firebaseConfig); // Debugging জন্য
+
+const app = initializeApp(firebaseConfig);
+
+export default app;

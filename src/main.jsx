@@ -4,18 +4,13 @@ import './index.css';
 import { RouterProvider } from "react-router-dom";
 import { router } from './Routes/router.jsx';
 import AuthProviders from './Provider/AuthProviders.jsx';
-
-// Import TanStack React Query
-
-
-// Create a QueryClient instance
-
+import { Toaster } from 'react-hot-toast'; // ✅ Import Toaster
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
-
-      <AuthProviders>
-        <RouterProvider router={router} />
-      </AuthProviders>
-  </StrictMode>,
+    <AuthProviders>
+      <RouterProvider router={router} />
+     <Toaster position="top-center" reverseOrder={false} />
+    </AuthProviders>
+  </StrictMode>
 );
